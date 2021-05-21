@@ -1,0 +1,10 @@
+nameOverride: notejam-ci-user
+fullnameOverride: notejam-ci-user
+
+clusterRules:
+  - apiGroups:
+    - '*'
+    resources:
+    - 'namespaces'
+    verbs:
+    - '*'
